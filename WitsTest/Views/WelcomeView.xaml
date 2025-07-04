@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WitsTest.Views.WelcomeView"
+             xmlns:vm="clr-namespace:WitsTest.ViewModels"
+             x:DataType="vm:WelcomeViewModel"
+             Title="WelcomeView">
+    
+    <VerticalStackLayout Spacing="50">
+        <Label FontSize="Large"
+               FontAttributes="Bold"
+               Text="{Binding WelcomeText}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+        
+    </VerticalStackLayout>
+</ContentPage>
